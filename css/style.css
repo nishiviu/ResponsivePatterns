@@ -1,0 +1,191 @@
+body {
+    font-family: 'Open Sans', sans-serif
+}
+
+.navbar {
+    margin-bottom: 0px;
+    padding: 30px 15px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.navbar h3 {
+    color: white;
+}
+
+.navbar a {
+      text-decoration: none;
+}
+
+@media (max-width: 400px) {
+    .navbar-header {
+        position: relative;
+    }
+    .navbar img {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        width: 70%;
+    }
+}
+
+.navbar-inverse .navbar-nav > li >a {
+    color: #bbb;
+}
+
+
+.cbp-af-header-shrink {
+     padding: 5px 5px;
+     opacity: 0.9;
+}
+
+#carousel {
+    margin: 40px 0px;
+}
+
+#carousel img {
+   width: 100%;
+   max-height: 650px;
+}
+
+.fill-screen {
+    background-size: cover;
+    background-position: center;
+     text-align: center;
+}
+
+.firstImgDiv h1 {
+    color: white;
+    font-size: 12em;
+    padding-top: 10%;
+    opacity: 0.4;
+}
+
+.contact {
+    padding: auto;
+    text-align: center;
+}
+
+.content-filler {
+    min-height: 150px;
+}
+
+.fixed-attachment {
+    background-attachment: fixed;
+}
+
+.down-button {
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+.down-button i {
+    color: white;
+}
+
+@media (max-width: 1024px) {
+    .fixed-attachment {
+        background-attachment: scroll;
+    }
+}
+
+ footer {
+    background-color: #333;
+    color: #ddd;
+    padding: 20px;
+    text-align: center;
+}
+
+.icon-element {
+text-align: center;
+padding: 25px;
+}
+
+.icon-element img {
+    width: 150px;
+    height: 150px;
+}
+
+/*Code from:
+http://minimit.com/articles/solutions-tutorials/bootstrap-3-responsive-columns-of-same-height
+
+*/
+
+.container-xs-height {
+    display: table;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.row-xs-height {
+    display: table-row;
+}
+
+.col-xs-height {
+    display: table-cell;
+    float: none;
+}
+
+/* The following code is used to create same-sized columns 
+   in a multi-column layout.
+   Code from:  
+   http://www.minimit.com/articles/solutions-tutorials/bootstrap-3-responsive-columns-of-same-height
+*/
+/* columns of same height styles */
+.container-xs-height {
+    display:table;
+    padding-left:0px;
+    padding-right:0px;
+}
+.row-xs-height {
+    display:table-row;
+}
+.col-xs-height {
+    display:table-cell;
+    float:none;
+}
+@media (min-width: 768px) {
+    .container-sm-height {
+        display:table;
+        padding-left:0px;
+        padding-right:0px;
+    }
+    .row-sm-height {
+        display:table-row;
+    }
+    .col-sm-height {
+        display:table-cell;
+        float:none;
+    }
+}
+@media (min-width: 992px) {
+    .container-md-height {
+        display:table;
+        padding-left:0px;
+        padding-right:0px;
+    }
+    .row-md-height {
+        display:table-row;
+    }
+    .col-md-height {
+        display:table-cell;
+        float:none;
+    }
+}
+@media (min-width: 1200px) {
+    .container-lg-height {
+        display:table;
+        padding-left:0px;
+        padding-right:0px;
+    }
+    .row-lg-height {
+        display:table-row;
+    }
+    .col-lg-height {
+        display:table-cell;
+        float:none;
+    }
+}
